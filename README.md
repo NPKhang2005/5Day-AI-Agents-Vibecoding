@@ -50,7 +50,7 @@ Repo lưu trữ bài tập, ghi chú và các dự án thực hành trong khóa 
 
 ## 🛠️ Công nghệ & Công cụ sử dụng
 - **Nền tảng:** Kaggle, Google Cloud / Vertex AI, Gemini API
-- **Ngôn ngữ:** Python, Markdown
+- **Ngôn ngữ:** Antigravity IDE, Google AI Studio, Cloud Run, HTML/CSS/JavaScript.
 - **Framework & Libraries:** Google GenAI SDK, LangChain / LlamaIndex / Agent Frameworks
 
 ---
