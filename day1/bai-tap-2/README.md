@@ -60,7 +60,7 @@
    npm run dev
    ```
 
-4. Mở trình duyệt tại địa chỉ hiển thị trong terminal (thường là `http://localhost:5173`) để trải nghiệm ứng dụng.
+4. Mở trình duyệt tại địa chỉ hiển thị trong terminal (thường là `http://localhost:3000`) để trải nghiệm ứng dụng.
 
 ---
 [⬅️ Quay lại danh sách bài tập Day 1](../README.md)
