@@ -12,8 +12,8 @@ Chào mừng bạn đến với buổi học đầu tiên của khóa học **5-
 ## 🎯 Mục tiêu bài học
 - Nắm vững khái niệm nền tảng về **AI Agents**: Sự khác biệt giữa mô hình ngôn ngữ lớn (LLM) thông thường và Agent tự chủ (Autonomous Agent).
 - Hiểu và ứng dụng phong cách **Vibe Coding**: Cách đối thoại, hướng dẫn và cộng tác cùng AI để xây dựng phần mềm nhanh chóng, trực quan.
-- Làm quen với môi trường Google AI Studio, thiết lập khóa API và trải nghiệm sức mạnh mô hình Gemini 2.5.
-- Thực hành triển khai ứng dụng thực tế lên nền tảng đám mây Google Cloud Run.
+- Làm quen với môi trường Google AI Studio, thiết lập khóa API và trải nghiệm sức mạnh mô hình Gemini.
+- Thực hành xây dựng và triển khai ứng dụng web lên nền tảng đám mây Google Cloud Run.
 
 ---
 
@@ -32,17 +32,11 @@ Chào mừng bạn đến với buổi học đầu tiên của khóa học **5-
 
 ---
 
-### 🔹 Bài tập 2: Xây dựng ứng dụng Web trong AI Studio & Triển khai lên Cloud Run
+### 🔹 Bài tập 2: Xây dựng ứng dụng web trong AI Studio & Triển khai lên Cloud Run
 - **Thư mục bài làm:** [`bai-tap-2/`](./bai-tap-2/)
 - **Mô tả chi tiết:**
-  - Ứng dụng **AGU AI Study Assistant** - Trợ lý gia sư AI hỗ trợ học tập CNTT & Vibe Coding cho sinh viên Đại học An Giang sử dụng **Google Gemini API** (Google AI Studio).
-  - Ứng dụng viết bằng Python & Streamlit, tích hợp mô hình `gemini-2.5-flash`, cho phép tùy chỉnh System Instruction, hỗ trợ trò chuyện thông minh và sửa lỗi code.
-  - Được đóng gói hoàn chỉnh bằng Docker và sẵn sàng triển khai Serverless lên **Google Cloud Run**.
-- **Các tệp nộp bài:**
-  - [`app.py`](./bai-tap-2/app.py): Mã nguồn ứng dụng AI Web Chatbot.
-  - [`requirements.txt`](./bai-tap-2/requirements.txt): Khai báo thư viện (`streamlit`, `google-genai`).
-  - [`Dockerfile`](./bai-tap-2/Dockerfile): Cấu hình đóng gói container cho Google Cloud Run.
-  - [`README.md`](./bai-tap-2/README.md): Hướng dẫn chi tiết từng bước lấy API Key, chạy local và triển khai lên Cloud Run.
+  - Xây dựng ứng dụng web trực tiếp từ **Google AI Studio** và triển khai lên **Google Cloud Run**.
+  - *(Đang tiến hành thực hiện)*
 
 ---
 [⬅️ Quay lại trang chủ](../README.md)
