@@ -1,0 +1,8 @@
+{
+  "name": "Aethelgard Formal Atrium",
+  "description": "An executive ceremonial application featuring atmospheric particle simulations of falling snowflakes and ascending balloons.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

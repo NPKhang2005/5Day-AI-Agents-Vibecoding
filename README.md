@@ -12,23 +12,28 @@ Repo lưu trữ bài tập, ghi chú và các dự án thực hành trong khóa 
 
 ---
 
+## 🌐 Demo
+- **Snowflakes & Balloons (Day 1 - Bài tập 2):** [https://khang-snowflakes-balloons.ai.studio](https://khang-snowflakes-balloons.ai.studio)
+
+---
+
 ## 📚 Lộ trình khóa học (Course Roadmap)
 
 | Ngày | Thư mục | Chủ đề | Trạng thái |
 |:---:|:---|:---|:---:|
-| **Day 1** | [day1/](./day1/) | **Introduction to Agents & Vibe Coding** | 📝 Khởi động |
-| **Day 2** | [day2/](./day2/) | **Agent Tools & Interoperability** | 📝 Đang thực hiện |
-| **Day 3** | [day3/](./day3/) | **Context Engineering: Sessions, Skills & Memory** | 📝 Đang thực hiện |
-| **Day 4** | [day4/](./day4/) | **Agent Quality & Security** | 📝 Đang thực hiện |
-| **Day 5** | [day5/](./day5/) | **Prototype to Production** | 📝 Đang thực hiện |
+| **Day 1** | [day1/](./day1/) | **Introduction to Agents & Vibe Coding** | ✅ Hoàn thành |
+| **Day 2** | [day2/](./day2/) | **Agent Tools & Interoperability** | ⏳ Chưa bắt đầu |
+| **Day 3** | [day3/](./day3/) | **Context Engineering: Sessions, Skills & Memory** | ⏳ Chưa bắt đầu |
+| **Day 4** | [day4/](./day4/) | **Agent Quality & Security** | ⏳ Chưa bắt đầu |
+| **Day 5** | [day5/](./day5/) | **Prototype to Production** | ⏳ Chưa bắt đầu |
 
 ---
 
 ## 🎯 Chi tiết từng buổi học
 
 ### 🔹 [Day 1: Introduction to Agents & Vibe Coding](./day1/README.md)
-- Tổng quan về AI Agents, kiến trúc Agentic và phong cách lập trình "Vibe Coding".
-- Thiết lập môi trường, kết nối mô hình ngôn ngữ lớn (LLMs).
+- **Bài tập 1:** Xây dựng Website giới thiệu bản thân cá nhân bằng HTML/CSS/JavaScript.
+- **Bài tập 2:** Ứng dụng tương tác **Snowflakes & Balloons** xây dựng qua Google AI Studio và triển khai lên Cloud Run ([Demo](https://khang-snowflakes-balloons.ai.studio)).
 
 ### 🔹 [Day 2: Agent Tools & Interoperability](./day2/README.md)
 - Cách trang bị và gọi công cụ (Tool Calling / Function Calling) cho Agent.
@@ -49,9 +54,11 @@ Repo lưu trữ bài tập, ghi chú và các dự án thực hành trong khóa 
 ---
 
 ## 🛠️ Công nghệ & Công cụ sử dụng
-- **Nền tảng:** Kaggle, Google Cloud / Vertex AI, Gemini API
-- **Ngôn ngữ:** Antigravity IDE, Google AI Studio, Cloud Run, HTML/CSS/JavaScript.
-- **Framework & Libraries:** Google GenAI SDK, LangChain / LlamaIndex / Agent Frameworks
+- Antigravity IDE
+- Google AI Studio
+- Google Cloud Run
+- HTML/CSS/JavaScript
+- React/TypeScript
 
 ---
 *Created with ❤️ by Nguyen Phuc Khang - An Giang University*

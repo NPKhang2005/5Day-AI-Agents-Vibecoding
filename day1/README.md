@@ -12,7 +12,7 @@ Chào mừng bạn đến với buổi học đầu tiên của khóa học **5-
 ## 🎯 Mục tiêu bài học
 - Nắm vững khái niệm nền tảng về **AI Agents**: Sự khác biệt giữa mô hình ngôn ngữ lớn (LLM) thông thường và Agent tự chủ (Autonomous Agent).
 - Hiểu và ứng dụng phong cách **Vibe Coding**: Cách đối thoại, hướng dẫn và cộng tác cùng AI để xây dựng phần mềm nhanh chóng, trực quan.
-- Làm quen với môi trường Google AI Studio, thiết lập khóa API và trải nghiệm sức mạnh mô hình Gemini.
+- Làm quen với môi trường Google AI Studio (Build Mode), mô tả ứng dụng bằng ngôn ngữ tự nhiên.
 - Thực hành xây dựng và triển khai ứng dụng web lên nền tảng đám mây Google Cloud Run.
 
 ---
@@ -32,11 +32,14 @@ Chào mừng bạn đến với buổi học đầu tiên của khóa học **5-
 
 ---
 
-### 🔹 Bài tập 2: Xây dựng ứng dụng web trong AI Studio & Triển khai lên Cloud Run
+### 🔹 Bài tập 2: Ứng dụng Snowflakes & Balloons (Google AI Studio & Cloud Run)
 - **Thư mục bài làm:** [`bai-tap-2/`](./bai-tap-2/)
 - **Mô tả chi tiết:**
-  - Xây dựng ứng dụng web trực tiếp từ **Google AI Studio** và triển khai lên **Google Cloud Run**.
-  - *(Đang tiến hành thực hiện)*
+  - Ứng dụng tương tác **Snowflakes & Balloons** được xây dựng bằng tính năng **Build Mode** trong **Google AI Studio** theo phong cách Vibe Coding.
+  - Tương tác trực quan: bấm nút *Snowflakes* kích hoạt hiệu ứng tuyết rơi phủ màn hình, bấm nút *Balloons* thả bóng bay nhiều màu sắc bay lên trong 5 giây, kết hợp hiệu ứng âm thanh từ Web Audio API.
+  - Xây dựng bằng React, TypeScript, Vite, HTML5 Canvas và triển khai trực tiếp lên **Google Cloud Run**.
+- **🌐 Trải nghiệm trực tiếp:** [https://khang-snowflakes-balloons.ai.studio](https://khang-snowflakes-balloons.ai.studio)
+- **Chi tiết xem tại:** [`bai-tap-2/README.md`](./bai-tap-2/README.md)
 
 ---
 [⬅️ Quay lại trang chủ](../README.md)
