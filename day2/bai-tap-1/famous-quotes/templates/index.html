@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Danh Ngôn Bất Hủ | Famous Quotes (Song Ngữ Anh - Việt)</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;1,400;1,600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="app-container">
+    <!-- Header -->
+    <header class="app-header">
+      <div class="header-left">
+        <div class="logo-mark">“</div>
+        <div class="brand-text">
+          <h1>Danh Ngôn Bất Hủ</h1>
+          <p class="subtitle">100 Famous Quotes • Song Ngữ Anh - Việt</p>
+        </div>
+      </div>
+      <div class="header-actions">
+        <button id="btn-theme-toggle" class="icon-button" title="Chuyển chế độ sáng/tối" aria-label="Chuyển chế độ sáng/tối">
+          <span id="theme-icon">🌙</span>
+        </button>
+        <button id="btn-open-favorites" class="btn btn-secondary header-fav-btn" title="Xem danh sách yêu thích">
+          <span class="heart-icon">❤️</span>
+          <span>Yêu thích</span>
+          <span id="fav-count-badge" class="badge">0</span>
+        </button>
+      </div>
+    </header>
+
+    <!-- Controls / Filters -->
+    <section class="controls-card">
+      <div class="search-row">
+        <div class="search-input-wrapper">
+          <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="11" cy="11" r="8"></circle>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+          </svg>
+          <input 
+            type="text" 
+            id="search-input" 
+            placeholder="Tìm theo tác giả, từ khóa tiếng Anh hoặc tiếng Việt..." 
+            autocomplete="off"
+          />
+          <button id="btn-clear-search" class="clear-btn" title="Xóa tìm kiếm" style="display: none;">✕</button>
+        </div>
+
+        <div class="select-wrapper">
+          <label for="category-select" class="sr-only">Chủ đề</label>
+          <select id="category-select">
+            <option value="all">Tất cả chủ đề (All Categories)</option>
+          </select>
+        </div>
+
+        <button id="btn-random-quote" class="btn btn-primary">
+          <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <polyline points="23 4 23 10 17 10"></polyline>
+            <polyline points="1 20 1 14 7 14"></polyline>
+            <path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"></path>
+          </svg>
+          <span>Câu ngẫu nhiên</span>
+        </button>
+      </div>
+
+      <!-- Quick category pills -->
+      <div class="category-pills" id="category-pills">
+        <!-- Rendered dynamically via JS -->
+      </div>
+    </section>
+
+    <!-- Main Random Quote Showcase Card -->
+    <main class="main-content">
+      <div class="quote-card" id="hero-quote-card">
+        <div class="card-top-bar">
+          <span class="category-tag" id="hero-category">Inspiration</span>
+          <div class="card-top-actions">
+            <button id="btn-hero-copy" class="icon-button" title="Sao chép danh ngôn">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+              </svg>
+            </button>
+            <button id="btn-hero-fav" class="icon-button fav-btn" title="Thêm vào yêu thích">
+              <svg class="heart-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+              </svg>
+            </button>
+          </div>
+        </div>
+
+        <div class="quote-body">
+          <div class="quote-row">
+            <blockquote class="quote-en" id="hero-quote-en">
+              “The only way to do great work is to love what you do.”
+            </blockquote>
+            <button id="btn-speak-en" class="speech-btn" title="Phát âm tiếng Anh (Phím tắt: S)" aria-label="Phát âm tiếng Anh">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon>
+                <path d="M19.07 4.93a10 10 0 0 1 0 14.14M15.54 8.46a5 5 0 0 1 0 7.07"></path>
+              </svg>
+              <span class="speech-label">EN</span>
+            </button>
+          </div>
+          <div class="quote-row">
+            <p class="quote-vi" id="hero-quote-vi">
+              “Cách duy nhất để tạo nên sự nghiệp vĩ đại là yêu những gì bạn làm.”
+            </p>
+            <button id="btn-speak-vi" class="speech-btn" title="Đọc bản dịch tiếng Việt" aria-label="Đọc tiếng Việt">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon>
+                <path d="M15.54 8.46a5 5 0 0 1 0 7.07"></path>
+              </svg>
+              <span class="speech-label">VI</span>
+            </button>
+          </div>
+        </div>
+
+        <div class="quote-footer">
+          <div class="author-info">
+            <span class="author-dash">—</span>
+            <span class="author-name" id="hero-author">Steve Jobs</span>
+          </div>
+          <div class="footer-actions">
+            <button id="btn-next-random" class="btn btn-outline" title="Đổi câu tiếp theo (Phím tắt: Phím cách)">
+              <span>Câu tiếp theo</span>
+              <kbd class="kbd-hint">Space</kbd>
+              <span class="arrow">→</span>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Search & Filter Results Section -->
+      <section class="results-section" id="results-section" style="display: none;">
+        <div class="results-header">
+          <h2 id="results-heading">Kết quả tìm kiếm</h2>
+          <span id="results-count" class="results-count-badge">0 câu</span>
+        </div>
+        <div class="quotes-grid" id="quotes-grid">
+          <!-- Rendered dynamically -->
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="app-footer">
+      <p>Bilingual Famous Quotes App • Vanilla JS + Python Flask • Running on Port 5001</p>
+    </footer>
+  </div>
+
+  <!-- Favorites Drawer / Modal -->
+  <div class="modal-backdrop" id="fav-modal" style="display: none;">
+    <div class="modal-card">
+      <div class="modal-header">
+        <div class="modal-title-group">
+          <h3>❤️ Danh Ngôn Đã Lưu</h3>
+          <span class="badge" id="modal-fav-count">0</span>
+        </div>
+        <button id="btn-close-modal" class="close-modal-btn" title="Đóng">✕</button>
+      </div>
+
+      <div class="modal-body" id="fav-modal-list">
+        <!-- Rendered dynamically -->
+      </div>
+
+      <div class="modal-footer">
+        <div class="modal-footer-left">
+          <button id="btn-export-csv" class="btn btn-outline" title="Xuất danh sách yêu thích ra tệp CSV">
+            <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+              <polyline points="7 10 12 15 17 10"></polyline>
+              <line x1="12" y1="15" x2="12" y2="3"></line>
+            </svg>
+            <span>Xuất CSV</span>
+          </button>
+          <button id="btn-clear-all-fav" class="btn btn-ghost danger-text">Xóa tất cả</button>
+        </div>
+        <button id="btn-close-modal-footer" class="btn btn-secondary">Đóng</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification -->
+  <div id="toast" class="toast" role="alert" aria-live="polite"></div>
+
+  <script src="{{ url_for('static', filename='js/app.js') }}"></script>
+</body>
+</html>

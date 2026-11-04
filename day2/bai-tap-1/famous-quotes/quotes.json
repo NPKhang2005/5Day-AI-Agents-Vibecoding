@@ -1,0 +1,702 @@
+[
+  {
+    "id": 1,
+    "quote_en": "The only way to do great work is to love what you do.",
+    "quote_vi": "Cách duy nhất để tạo nên sự nghiệp vĩ đại là yêu những gì bạn làm.",
+    "author": "Steve Jobs",
+    "category": "Success"
+  },
+  {
+    "id": 2,
+    "quote_en": "In the middle of difficulty lies opportunity.",
+    "quote_vi": "Giữa khó khăn luôn ẩn chứa cơ hội.",
+    "author": "Albert Einstein",
+    "category": "Inspiration"
+  },
+  {
+    "id": 3,
+    "quote_en": "Life is what happens when you're busy making other plans.",
+    "quote_vi": "Cuộc sống là những gì xảy ra khi bạn đang bận rộn lên những kế hoạch khác.",
+    "author": "John Lennon",
+    "category": "Life"
+  },
+  {
+    "id": 4,
+    "quote_en": "The unexamined life is not worth living.",
+    "quote_vi": "Một cuộc đời không được suy xét thấu đáo thì không đáng sống.",
+    "author": "Socrates",
+    "category": "Philosophy"
+  },
+  {
+    "id": 5,
+    "quote_en": "It does not matter how slowly you go as long as you do not stop.",
+    "quote_vi": "Không quan trọng bạn đi chậm thế nào, miễn là bạn không dừng lại.",
+    "author": "Confucius",
+    "category": "Perseverance"
+  },
+  {
+    "id": 6,
+    "quote_en": "Be yourself; everyone else is already taken.",
+    "quote_vi": "Hãy là chính mình; những người khác đều đã có người làm rồi.",
+    "author": "Oscar Wilde",
+    "category": "Wisdom"
+  },
+  {
+    "id": 7,
+    "quote_en": "Success is not final, failure is not fatal: it is the courage to continue that counts.",
+    "quote_vi": "Thành công không phải là điểm kết, thất bại không phải là án tử: lòng dũng cảm bước tiếp mới là điều quan trọng.",
+    "author": "Winston Churchill",
+    "category": "Courage"
+  },
+  {
+    "id": 8,
+    "quote_en": "You must be the change you wish to see in the world.",
+    "quote_vi": "Bạn phải trở thành sự thay đổi mà bạn muốn nhìn thấy trong thế giới này.",
+    "author": "Mahatma Gandhi",
+    "category": "Leadership"
+  },
+  {
+    "id": 9,
+    "quote_en": "Spread love everywhere you go. Let no one ever come to you without leaving happier.",
+    "quote_vi": "Hãy lan tỏa tình yêu ở mọi nơi bạn đến. Đừng để ai rời khỏi bạn mà không cảm thấy hạnh phúc hơn.",
+    "author": "Mother Teresa",
+    "category": "Life"
+  },
+  {
+    "id": 10,
+    "quote_en": "The only true wisdom is in knowing you know nothing.",
+    "quote_vi": "Trí tuệ thực sự duy nhất là biết rằng mình chẳng biết gì cả.",
+    "author": "Socrates",
+    "category": "Wisdom"
+  },
+  {
+    "id": 11,
+    "quote_en": "Imagination is more important than knowledge.",
+    "quote_vi": "Trí tưởng tượng quan trọng hơn cả kiến thức.",
+    "author": "Albert Einstein",
+    "category": "Knowledge"
+  },
+  {
+    "id": 12,
+    "quote_en": "The journey of a thousand miles begins with a single step.",
+    "quote_vi": "Hành trình vạn dặm bắt đầu từ một bước chân.",
+    "author": "Lao Tzu",
+    "category": "Perseverance"
+  },
+  {
+    "id": 13,
+    "quote_en": "Darkness cannot drive out darkness: only light can do that. Hate cannot drive out hate: only love can do that.",
+    "quote_vi": "Bóng tối không thể xua đi bóng tối: chỉ ánh sáng mới làm được điều đó. Thù hận không thể xua tan thù hận: chỉ tình yêu mới làm được điều đó.",
+    "author": "Martin Luther King Jr.",
+    "category": "Philosophy"
+  },
+  {
+    "id": 14,
+    "quote_en": "Believe you can and you're halfway there.",
+    "quote_vi": "Hãy tin rằng bạn có thể làm được, và bạn đã đi được một nửa chặng đường.",
+    "author": "Theodore Roosevelt",
+    "category": "Inspiration"
+  },
+  {
+    "id": 15,
+    "quote_en": "The future belongs to those who believe in the beauty of their dreams.",
+    "quote_vi": "Tương lai thuộc về những ai tin vào vẻ đẹp của ước mơ mình.",
+    "author": "Eleanor Roosevelt",
+    "category": "Inspiration"
+  },
+  {
+    "id": 16,
+    "quote_en": "Do what you can, with what you have, where you are.",
+    "quote_vi": "Hãy làm những gì bạn có thể, với những gì bạn có, ngay tại nơi bạn đang đứng.",
+    "author": "Theodore Roosevelt",
+    "category": "Wisdom"
+  },
+  {
+    "id": 17,
+    "quote_en": "Happiness is not something readymade. It comes from your own actions.",
+    "quote_vi": "Hạnh phúc không phải là thứ có sẵn. Nó đến từ chính hành động của bạn.",
+    "author": "Dalai Lama",
+    "category": "Life"
+  },
+  {
+    "id": 18,
+    "quote_en": "If you want to lift yourself up, lift up someone else.",
+    "quote_vi": "Nếu bạn muốn nâng mình lên, hãy nâng đỡ một người khác.",
+    "author": "Booker T. Washington",
+    "category": "Leadership"
+  },
+  {
+    "id": 19,
+    "quote_en": "A friend is someone who knows all about you and still loves you.",
+    "quote_vi": "Một người bạn là người biết tất cả về bạn nhưng vẫn luôn yêu quý bạn.",
+    "author": "Elbert Hubbard",
+    "category": "Friendship"
+  },
+  {
+    "id": 20,
+    "quote_en": "To be yourself in a world that is constantly trying to make you something else is the greatest accomplishment.",
+    "quote_vi": "Là chính mình trong một thế giới không ngừng cố biến bạn thành người khác là thành tựu vĩ đại nhất.",
+    "author": "Ralph Waldo Emerson",
+    "category": "Wisdom"
+  },
+  {
+    "id": 21,
+    "quote_en": "Knowledge speaks, but wisdom listens.",
+    "quote_vi": "Tri thức thích nói, nhưng trí tuệ biết lắng nghe.",
+    "author": "Jimi Hendrix",
+    "category": "Wisdom"
+  },
+  {
+    "id": 22,
+    "quote_en": "I have not failed. I've just found 10,000 ways that won't work.",
+    "quote_vi": "Tôi không thất bại. Tôi chỉ vừa tìm ra 10.000 cách không hoạt động mà thôi.",
+    "author": "Thomas Edison",
+    "category": "Perseverance"
+  },
+  {
+    "id": 23,
+    "quote_en": "The only limit to our realization of tomorrow will be our doubts of today.",
+    "quote_vi": "Giới hạn duy nhất cho sự nhận thức về ngày mai là những hoài nghi của chúng ta ngày hôm nay.",
+    "author": "Franklin D. Roosevelt",
+    "category": "Inspiration"
+  },
+  {
+    "id": 24,
+    "quote_en": "Stay hungry, stay foolish.",
+    "quote_vi": "Hãy luôn khao khát, hãy luôn dại khờ.",
+    "author": "Steve Jobs",
+    "category": "Inspiration"
+  },
+  {
+    "id": 25,
+    "quote_en": "Education is the most powerful weapon which you can use to change the world.",
+    "quote_vi": "Giáo dục là vũ khí mạnh nhất mà bạn có thể dùng để thay đổi thế giới.",
+    "author": "Nelson Mandela",
+    "category": "Knowledge"
+  },
+  {
+    "id": 26,
+    "quote_en": "There is no charm equal to tenderness of heart.",
+    "quote_vi": "Không có nét quyến rũ nào sánh bằng sự dịu dàng của trái tim.",
+    "author": "Jane Austen",
+    "category": "Life"
+  },
+  {
+    "id": 27,
+    "quote_en": "Walking with a friend in the dark is better than walking alone in the light.",
+    "quote_vi": "Bước đi cùng một người bạn trong bóng tối tốt hơn là đi một mình dưới ánh sáng.",
+    "author": "Helen Keller",
+    "category": "Friendship"
+  },
+  {
+    "id": 28,
+    "quote_en": "Everything has beauty, but not everyone sees it.",
+    "quote_vi": "Mọi vật đều có vẻ đẹp riêng, nhưng không phải ai cũng nhìn thấy nó.",
+    "author": "Confucius",
+    "category": "Wisdom"
+  },
+  {
+    "id": 29,
+    "quote_en": "It always seems impossible until it's done.",
+    "quote_vi": "Mọi việc dường như đều bất khả thi cho đến khi nó được hoàn thành.",
+    "author": "Nelson Mandela",
+    "category": "Perseverance"
+  },
+  {
+    "id": 30,
+    "quote_en": "Turn your wounds into wisdom.",
+    "quote_vi": "Hãy biến những vết thương của bạn thành sự khôn ngoan.",
+    "author": "Oprah Winfrey",
+    "category": "Wisdom"
+  },
+  {
+    "id": 31,
+    "quote_en": "Life isn't about finding yourself. Life is about creating yourself.",
+    "quote_vi": "Cuộc sống không phải là đi tìm kiếm chính mình. Cuộc sống là tự tạo nên chính mình.",
+    "author": "George Bernard Shaw",
+    "category": "Life"
+  },
+  {
+    "id": 32,
+    "quote_en": "Simplicity is the ultimate sophistication.",
+    "quote_vi": "Sự đơn giản chính là đỉnh cao của sự tinh tế.",
+    "author": "Leonardo da Vinci",
+    "category": "Philosophy"
+  },
+  {
+    "id": 33,
+    "quote_en": "What you do speaks so loudly that I cannot hear what you say.",
+    "quote_vi": "Những gì bạn làm nói to đến mức tôi không thể nghe thấy những gì bạn nói.",
+    "author": "Ralph Waldo Emerson",
+    "category": "Leadership"
+  },
+  {
+    "id": 34,
+    "quote_en": "Try not to become a man of success. Rather become a man of value.",
+    "quote_vi": "Đừng cố trở thành người thành công. Hãy phấn đấu trở thành người có giá trị.",
+    "author": "Albert Einstein",
+    "category": "Success"
+  },
+  {
+    "id": 35,
+    "quote_en": "In three words I can sum up everything I've learned about life: it goes on.",
+    "quote_vi": "Chỉ trong ba từ tôi có thể tóm gọn mọi điều đã học về cuộc đời: nó vẫn tiếp diễn.",
+    "author": "Robert Frost",
+    "category": "Life"
+  },
+  {
+    "id": 36,
+    "quote_en": "The greatest glory in living lies not in never falling, but in rising every time we fall.",
+    "quote_vi": "Vinh quang lớn nhất của cuộc đời không nằm ở chỗ không bao giờ vấp ngã, mà ở chỗ biết đứng dậy sau mỗi lần ngã.",
+    "author": "Nelson Mandela",
+    "category": "Courage"
+  },
+  {
+    "id": 37,
+    "quote_en": "Whatever you are, be a good one.",
+    "quote_vi": "Dù bạn là ai hay làm gì, hãy làm thật tốt điều đó.",
+    "author": "Abraham Lincoln",
+    "category": "Wisdom"
+  },
+  {
+    "id": 38,
+    "quote_en": "To live is the rarest thing in the world. Most people exist, that is all.",
+    "quote_vi": "Thực sự sống là điều hiếm có nhất trên đời. Hầu hết mọi người chỉ tồn tại, thế thôi.",
+    "author": "Oscar Wilde",
+    "category": "Life"
+  },
+  {
+    "id": 39,
+    "quote_en": "A room without books is like a body without a soul.",
+    "quote_vi": "Một căn phòng không có sách giống như một cơ thể không có tâm hồn.",
+    "author": "Marcus Tullius Cicero",
+    "category": "Knowledge"
+  },
+  {
+    "id": 40,
+    "quote_en": "If you tell the truth, you don't have to remember anything.",
+    "quote_vi": "Nếu bạn nói sự thật, bạn sẽ không cần phải cố nhớ bất kỳ điều gì.",
+    "author": "Mark Twain",
+    "category": "Wisdom"
+  },
+  {
+    "id": 41,
+    "quote_en": "A friend to all is a friend to none.",
+    "quote_vi": "Bạn của tất cả mọi người là chẳng phải bạn của ai cả.",
+    "author": "Aristotle",
+    "category": "Friendship"
+  },
+  {
+    "id": 42,
+    "quote_en": "He who has a why to live can bear almost any how.",
+    "quote_vi": "Ai có một lý do để sống có thể chịu đựng hầu như bất kỳ nghịch cảnh nào.",
+    "author": "Friedrich Nietzsche",
+    "category": "Philosophy"
+  },
+  {
+    "id": 43,
+    "quote_en": "Courage is resistance to fear, mastery of fear—not absence of fear.",
+    "quote_vi": "Lòng can đảm là sự chống lại nỗi sợ, làm chủ nỗi sợ—chứ không phải là không sợ hãi.",
+    "author": "Mark Twain",
+    "category": "Courage"
+  },
+  {
+    "id": 44,
+    "quote_en": "Act as if what you do makes a difference. It does.",
+    "quote_vi": "Hãy hành động như thể những gì bạn làm tạo nên sự khác biệt. Quả thật là như vậy.",
+    "author": "William James",
+    "category": "Inspiration"
+  },
+  {
+    "id": 45,
+    "quote_en": "We are what we repeatedly do. Excellence, then, is not an act, but a habit.",
+    "quote_vi": "Chúng ta là những gì chúng ta lặp đi lặp lại. Do đó, sự xuất sắc không phải là một hành động đơn lẻ, mà là một thói quen.",
+    "author": "Will Durant",
+    "category": "Success"
+  },
+  {
+    "id": 46,
+    "quote_en": "Do one thing every day that scares you.",
+    "quote_vi": "Mỗi ngày hãy làm một điều khiến bạn cảm thấy sợ hãi.",
+    "author": "Eleanor Roosevelt",
+    "category": "Courage"
+  },
+  {
+    "id": 47,
+    "quote_en": "Success usually comes to those who are too busy to be looking for it.",
+    "quote_vi": "Thành công thường đến với những ai quá bận rộn để tìm kiếm nó.",
+    "author": "Henry David Thoreau",
+    "category": "Success"
+  },
+  {
+    "id": 48,
+    "quote_en": "The mind is everything. What you think you become.",
+    "quote_vi": "Tâm trí là tất cả. Bạn nghĩ mình như thế nào, bạn sẽ trở thành như thế ấy.",
+    "author": "Buddha",
+    "category": "Philosophy"
+  },
+  {
+    "id": 49,
+    "quote_en": "Not all those who wander are lost.",
+    "quote_vi": "Không phải ai lang thang cũng là người lạc lối.",
+    "author": "J.R.R. Tolkien",
+    "category": "Life"
+  },
+  {
+    "id": 50,
+    "quote_en": "Never let the fear of striking out keep you from playing the game.",
+    "quote_vi": "Đừng bao giờ để nỗi sợ bị loại ngăn cản bạn tham gia trò chơi.",
+    "author": "Babe Ruth",
+    "category": "Courage"
+  },
+  {
+    "id": 51,
+    "quote_en": "An investment in knowledge pays the best interest.",
+    "quote_vi": "Đầu tư vào tri thức luôn mang lại lợi tức cao nhất.",
+    "author": "Benjamin Franklin",
+    "category": "Knowledge"
+  },
+  {
+    "id": 52,
+    "quote_en": "A leader is one who knows the way, goes the way, and shows the way.",
+    "quote_vi": "Người lãnh đạo là người biết đường, đi trên con đường đó và chỉ lối cho người khác.",
+    "author": "John C. Maxwell",
+    "category": "Leadership"
+  },
+  {
+    "id": 53,
+    "quote_en": "Two things are infinite: the universe and human stupidity; and I'm not sure about the universe.",
+    "quote_vi": "Có hai thứ vô hạn: vũ trụ và sự ngu ngốc của con người; và tôi không chắc lắm về vũ trụ.",
+    "author": "Albert Einstein",
+    "category": "Wisdom"
+  },
+  {
+    "id": 54,
+    "quote_en": "The secret of getting ahead is getting started.",
+    "quote_vi": "Bí quyết để vượt lên phía trước là hãy bắt đầu.",
+    "author": "Mark Twain",
+    "category": "Success"
+  },
+  {
+    "id": 55,
+    "quote_en": "Knowing yourself is the beginning of all wisdom.",
+    "quote_vi": "Thấu hiểu bản thân là khởi đầu của mọi trí tuệ.",
+    "author": "Aristotle",
+    "category": "Wisdom"
+  },
+  {
+    "id": 56,
+    "quote_en": "Peace comes from within. Do not seek it without.",
+    "quote_vi": "Sự bình yên đến từ bên trong. Đừng tìm kiếm nó ở bên ngoài.",
+    "author": "Buddha",
+    "category": "Philosophy"
+  },
+  {
+    "id": 57,
+    "quote_en": "I attribute my success to this: I never gave or took any excuse.",
+    "quote_vi": "Tôi gán thành công của mình cho điều này: tôi không bao giờ đưa ra hay chấp nhận bất kỳ lý do thoái thác nào.",
+    "author": "Florence Nightingale",
+    "category": "Perseverance"
+  },
+  {
+    "id": 58,
+    "quote_en": "You miss 100% of the shots you don't take.",
+    "quote_vi": "Bạn sẽ bỏ lỡ 100% những cú đánh mà bạn không thực hiện.",
+    "author": "Wayne Gretzky",
+    "category": "Courage"
+  },
+  {
+    "id": 59,
+    "quote_en": "Whether you think you can or you think you can't, you're right.",
+    "quote_vi": "Dù bạn nghĩ mình có thể hay không thể, bạn đều đúng.",
+    "author": "Henry Ford",
+    "category": "Inspiration"
+  },
+  {
+    "id": 60,
+    "quote_en": "The only person you are destined to become is the person you decide to be.",
+    "quote_vi": "Người duy nhất bạn được định sẵn để trở thành là người mà bạn quyết định trở thành.",
+    "author": "Ralph Waldo Emerson",
+    "category": "Life"
+  },
+  {
+    "id": 61,
+    "quote_en": "Change your thoughts and you change your world.",
+    "quote_vi": "Thay đổi suy nghĩ của bạn và bạn sẽ thay đổi cả thế giới của mình.",
+    "author": "Norman Vincent Peale",
+    "category": "Inspiration"
+  },
+  {
+    "id": 62,
+    "quote_en": "The best way to predict the future is to create it.",
+    "quote_vi": "Cách tốt nhất để dự đoán tương lai là tạo ra nó.",
+    "author": "Peter Drucker",
+    "category": "Leadership"
+  },
+  {
+    "id": 63,
+    "quote_en": "No one can make you feel inferior without your consent.",
+    "quote_vi": "Không ai có thể khiến bạn cảm thấy thấp kém nếu không có sự đồng ý của bạn.",
+    "author": "Eleanor Roosevelt",
+    "category": "Wisdom"
+  },
+  {
+    "id": 64,
+    "quote_en": "Don't count the days, make the days count.",
+    "quote_vi": "Đừng đếm những ngày trôi qua, hãy làm cho những ngày trôi qua trở nên có ý nghĩa.",
+    "author": "Muhammad Ali",
+    "category": "Life"
+  },
+  {
+    "id": 65,
+    "quote_en": "Quality is not an act, it is a habit.",
+    "quote_vi": "Chất lượng không phải là một hành động nhất thời, mà là một thói quen.",
+    "author": "Aristotle",
+    "category": "Success"
+  },
+  {
+    "id": 66,
+    "quote_en": "Real knowledge is to know the extent of one's ignorance.",
+    "quote_vi": "Tri thức thực sự là biết rõ giới hạn của sự thiếu hiểu biết của chính mình.",
+    "author": "Confucius",
+    "category": "Knowledge"
+  },
+  {
+    "id": 67,
+    "quote_en": "If you want to go fast, go alone. If you want to go far, go together.",
+    "quote_vi": "Nếu muốn đi nhanh, hãy đi một mình. Nếu muốn đi xa, hãy đi cùng nhau.",
+    "author": "African Proverb",
+    "category": "Leadership"
+  },
+  {
+    "id": 68,
+    "quote_en": "A person who never made a mistake never tried anything new.",
+    "quote_vi": "Một người chưa bao giờ phạm sai lầm là người chưa bao giờ thử bất cứ điều gì mới.",
+    "author": "Albert Einstein",
+    "category": "Perseverance"
+  },
+  {
+    "id": 69,
+    "quote_en": "The purpose of our lives is to be happy.",
+    "quote_vi": "Mục đích của cuộc đời chúng ta là được sống hạnh phúc.",
+    "author": "Dalai Lama",
+    "category": "Life"
+  },
+  {
+    "id": 70,
+    "quote_en": "Difficulties strengthen the mind, as labor does the body.",
+    "quote_vi": "Khó khăn tôi luyện tâm trí, giống như lao động rèn giũa cơ thể.",
+    "author": "Seneca",
+    "category": "Philosophy"
+  },
+  {
+    "id": 71,
+    "quote_en": "The roots of education are bitter, but the fruit is sweet.",
+    "quote_vi": "Cội rễ của học tập thì cay đắng, nhưng hoa trái thì ngọt ngào.",
+    "author": "Aristotle",
+    "category": "Knowledge"
+  },
+  {
+    "id": 72,
+    "quote_en": "We do not remember days, we remember moments.",
+    "quote_vi": "Chúng ta không nhớ những ngày trôi qua, chúng ta nhớ những khoảnh khắc.",
+    "author": "Cesare Pavese",
+    "category": "Life"
+  },
+  {
+    "id": 73,
+    "quote_en": "Fall seven times and stand up eight.",
+    "quote_vi": "Ngã bảy lần, đứng dậy tám lần.",
+    "author": "Japanese Proverb",
+    "category": "Perseverance"
+  },
+  {
+    "id": 74,
+    "quote_en": "Great minds discuss ideas; average minds discuss events; small minds discuss people.",
+    "quote_vi": "Những bộ óc vĩ đại bàn về ý tưởng; những bộ óc bình thường bàn về sự kiện; những bộ óc nhỏ nhen bàn về con người.",
+    "author": "Eleanor Roosevelt",
+    "category": "Wisdom"
+  },
+  {
+    "id": 75,
+    "quote_en": "There are no shortcuts to any place worth going.",
+    "quote_vi": "Không có con đường tắt nào dẫn đến nơi thực sự đáng đến.",
+    "author": "Beverly Sills",
+    "category": "Success"
+  },
+  {
+    "id": 76,
+    "quote_en": "Life shrinks or expands in proportion to one's courage.",
+    "quote_vi": "Cuộc đời thu hẹp hay mở rộng tỷ lệ thuận với lòng dũng cảm của mỗi người.",
+    "author": "Anaïs Nin",
+    "category": "Courage"
+  },
+  {
+    "id": 77,
+    "quote_en": "Wise men speak because they have something to say; fools because they have to say something.",
+    "quote_vi": "Người thông thái nói vì họ có điều đáng nói; kẻ ngu muội nói chỉ vì họ muốn nói điều gì đó.",
+    "author": "Plato",
+    "category": "Wisdom"
+  },
+  {
+    "id": 78,
+    "quote_en": "Leadership and learning are indispensable to each other.",
+    "quote_vi": "Lãnh đạo và học hỏi là hai điều không thể tách rời nhau.",
+    "author": "John F. Kennedy",
+    "category": "Leadership"
+  },
+  {
+    "id": 79,
+    "quote_en": "Lots of people want to ride with you in the limo, but what you want is someone who will take the bus with you when the limo breaks down.",
+    "quote_vi": "Nhiều người muốn ngồi xe sang cùng bạn, nhưng điều bạn cần là một người sẵn sàng đi xe buýt cùng bạn khi xe hỏng.",
+    "author": "Oprah Winfrey",
+    "category": "Friendship"
+  },
+  {
+    "id": 80,
+    "quote_en": "Waste no more time arguing what a good man should be. Be one.",
+    "quote_vi": "Đừng lãng phí thêm thời gian tranh luận xem người tốt nên thế nào. Hãy là một người tốt.",
+    "author": "Marcus Aurelius",
+    "category": "Philosophy"
+  },
+  {
+    "id": 81,
+    "quote_en": "If you don't stand for something you will fall for anything.",
+    "quote_vi": "Nếu bạn không kiên định đứng lên vì một điều gì, bạn sẽ gục ngã trước bất kỳ điều gì.",
+    "author": "Gordon A. Eadie",
+    "category": "Courage"
+  },
+  {
+    "id": 82,
+    "quote_en": "When one door of happiness closes, another opens; but often we look so long at the closed door that we do not see the one which has been opened for us.",
+    "quote_vi": "Khi một cánh cửa hạnh phúc đóng lại, cánh cửa khác sẽ mở ra; nhưng ta thường nhìn quá lâu vào cánh cửa đã đóng đến nỗi không thấy cánh cửa vừa mở ra cho mình.",
+    "author": "Helen Keller",
+    "category": "Inspiration"
+  },
+  {
+    "id": 83,
+    "quote_en": "The only source of knowledge is experience.",
+    "quote_vi": "Nguồn tri thức duy nhất chính là trải nghiệm.",
+    "author": "Albert Einstein",
+    "category": "Knowledge"
+  },
+  {
+    "id": 84,
+    "quote_en": "Silence is a source of great strength.",
+    "quote_vi": "Sự tĩnh lặng là một nguồn sức mạnh to lớn.",
+    "author": "Lao Tzu",
+    "category": "Wisdom"
+  },
+  {
+    "id": 85,
+    "quote_en": "Do not dwell in the past, do not dream of the future, concentrate the mind on the present moment.",
+    "quote_vi": "Đừng đắm chìm trong quá khứ, đừng mơ mộng về tương lai, hãy tập trung tâm trí vào giây phút hiện tại.",
+    "author": "Buddha",
+    "category": "Philosophy"
+  },
+  {
+    "id": 86,
+    "quote_en": "It is never too late to be what you might have been.",
+    "quote_vi": "Không bao giờ là quá muộn để trở thành con người mà bạn có thể trở thành.",
+    "author": "George Eliot",
+    "category": "Inspiration"
+  },
+  {
+    "id": 87,
+    "quote_en": "He that can have patience can have what he will.",
+    "quote_vi": "Người có thể kiên nhẫn có thể đạt được những gì mình mong muốn.",
+    "author": "Benjamin Franklin",
+    "category": "Perseverance"
+  },
+  {
+    "id": 88,
+    "quote_en": "The greatest wealth is to live content with little.",
+    "quote_vi": "Sự giàu có lớn nhất là biết sống thỏa lòng với những điều giản dị.",
+    "author": "Plato",
+    "category": "Wisdom"
+  },
+  {
+    "id": 89,
+    "quote_en": "Keep your face always toward the sunshine—and shadows will fall behind you.",
+    "quote_vi": "Hãy luôn hướng khuôn mặt về phía ánh nắng—và mọi bóng tối sẽ ngả về phía sau lưng bạn.",
+    "author": "Walt Whitman",
+    "category": "Inspiration"
+  },
+  {
+    "id": 90,
+    "quote_en": "Success is walking from failure to failure with no loss of enthusiasm.",
+    "quote_vi": "Thành công là bước đi từ thất bại này đến thất bại khác mà không hề đánh mất lòng nhiệt huyết.",
+    "author": "Winston Churchill",
+    "category": "Success"
+  },
+  {
+    "id": 91,
+    "quote_en": "Life is really simple, but we insist on making it complicated.",
+    "quote_vi": "Cuộc sống thực ra rất đơn giản, nhưng chúng ta cứ khăng khăng làm cho nó phức tạp lên.",
+    "author": "Confucius",
+    "category": "Life"
+  },
+  {
+    "id": 92,
+    "quote_en": "A warm smile is the universal language of kindness.",
+    "quote_vi": "Một nụ cười ấm áp là ngôn ngữ chung của lòng tốt trên toàn thế giới.",
+    "author": "William Arthur Ward",
+    "category": "Friendship"
+  },
+  {
+    "id": 93,
+    "quote_en": "You don't have to be great to start, but you have to start to be great.",
+    "quote_vi": "Bạn không cần phải xuất sắc để bắt đầu, nhưng bạn phải bắt đầu để trở nên xuất sắc.",
+    "author": "Zig Ziglar",
+    "category": "Success"
+  },
+  {
+    "id": 94,
+    "quote_en": "Happiness depends upon ourselves.",
+    "quote_vi": "Hạnh phúc phụ thuộc vào chính bản thân chúng ta.",
+    "author": "Aristotle",
+    "category": "Life"
+  },
+  {
+    "id": 95,
+    "quote_en": "Live as if you were to die tomorrow. Learn as if you were to live forever.",
+    "quote_vi": "Hãy sống như thể ngày mai bạn sẽ ra đi. Hãy học hỏi như thể bạn sẽ sống mãi mãi.",
+    "author": "Mahatma Gandhi",
+    "category": "Knowledge"
+  },
+  {
+    "id": 96,
+    "quote_en": "Doubt kills more dreams than failure ever will.",
+    "quote_vi": "Sự nghi ngờ giết chết nhiều ước mơ hơn bất kỳ thất bại nào.",
+    "author": "Suzy Kassem",
+    "category": "Courage"
+  },
+  {
+    "id": 97,
+    "quote_en": "To handle yourself, use your head; to handle others, use your heart.",
+    "quote_vi": "Để xử lý chính mình, hãy dùng cái đầu; để đối đãi với người khác, hãy dùng trái tim.",
+    "author": "Eleanor Roosevelt",
+    "category": "Leadership"
+  },
+  {
+    "id": 98,
+    "quote_en": "We must accept finite disappointment, but never lose infinite hope.",
+    "quote_vi": "Chúng ta phải chấp nhận sự thất vọng hữu hạn, nhưng đừng bao giờ đánh mất niềm hy vọng vô hạn.",
+    "author": "Martin Luther King Jr.",
+    "category": "Inspiration"
+  },
+  {
+    "id": 99,
+    "quote_en": "The man who moves a mountain begins by carrying away small stones.",
+    "quote_vi": "Người dời được núi bắt đầu bằng việc chuyển dời từng viên đá nhỏ.",
+    "author": "Confucius",
+    "category": "Perseverance"
+  },
+  {
+    "id": 100,
+    "quote_en": "Your time is limited, so don't waste it living someone else's life.",
+    "quote_vi": "Thời gian của bạn là có hạn, vì vậy đừng lãng phí nó để sống cuộc đời của người khác.",
+    "author": "Steve Jobs",
+    "category": "Life"
+  }
+]

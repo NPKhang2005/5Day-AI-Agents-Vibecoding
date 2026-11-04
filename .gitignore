@@ -5,6 +5,16 @@ node_modules/
 .env*
 !.env.example
 
+# Python virtual environments & cache
+.venv/
+env/
+venv/
+ENV/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
 # Build outputs
 dist/
 build/
@@ -13,3 +23,5 @@ build/
 *.log
 .DS_Store
 Thumbs.db
+.vscode/
+.idea/
