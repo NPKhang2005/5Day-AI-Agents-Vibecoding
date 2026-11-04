@@ -1,9 +1,14 @@
 # Node modules
 node_modules/
 
-# Environment files
+# Environment & Credential files
 .env*
 !.env.example
+credentials.json
+token.json
+client_secrets*.json
+*.key
+*.pem
 
 # Python virtual environments & cache
 .venv/

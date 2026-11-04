@@ -36,6 +36,21 @@ Buổi học thứ 2 của khóa học **5-Day AI Agents: Intensive Vibe Coding 
 
 ---
 
+### [Bài tập 2: Khám Phá Google Developer Knowledge MCP Server Trong Google Antigravity](./bai-tap-2/README.md)
+Tìm hiểu và tích hợp giao thức **Model Context Protocol (MCP)** để kết nối Google Antigravity với hệ sinh thái tài liệu chính thức của Google:
+- **Công nghệ & Giao thức**: Model Context Protocol (MCP), Google Antigravity CLI, Google Developer Knowledge API.
+- **Nội dung thực hành**:
+  - Kích hoạt Developer Knowledge API trên Google Cloud và tạo Restricted API Key an toàn.
+  - Cấu hình MCP server trong `~/.gemini/config/mcp_config.json` và kiểm tra bằng lệnh `/mcp`.
+  - Khám phá bộ 3 công cụ: `search_documents`, `answer_query`, `get_documents`.
+  - Thực nghiệm 3 câu lệnh kiểm thử (Test Prompts) thực tế để truy vấn tài liệu về Google Workspace MCP và Google Drive API.
+  - Sinh mã nguồn hoàn chỉnh [`upload_to_drive.py`](./bai-tap-2/upload_to_drive.py) hỗ trợ tải tệp tin lên Google Drive tự động bằng OAuth 2.0.
+  - Minh chứng hình ảnh cấu hình: [`mcp-proof.png`](./bai-tap-2/mcp-proof.png) và [`mcp-list.png`](./bai-tap-2/mcp-list.png).
+  - Thiết lập `.gitignore` loại trừ hoàn toàn các tệp nhạy cảm (`credentials.json`, `token.json`, `.env*`).
+- **Chi tiết xem tại**: [Bài tập 2 - README.md](./bai-tap-2/README.md).
+
+---
+
 ## 💻 Hướng dẫn chạy Bài tập 1 trên Windows
 
 ```powershell

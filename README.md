@@ -22,7 +22,7 @@ Repo lưu trữ bài tập, ghi chú và các dự án thực hành trong khóa 
 | Ngày | Thư mục | Chủ đề | Trạng thái |
 |:---:|:---|:---|:---:|
 | **Day 1** | [day1/](./day1/) | **Introduction to Agents & Vibe Coding** | ✅ Hoàn thành |
-| **Day 2** | [day2/](./day2/) | **Agent Tools & Interoperability** | 🔄 Đang thực hiện |
+| **Day 2** | [day2/](./day2/) | **Agent Tools & Interoperability** | ✅ Hoàn thành |
 | **Day 3** | [day3/](./day3/) | **Context Engineering: Sessions, Skills & Memory** | ⏳ Chưa bắt đầu |
 | **Day 4** | [day4/](./day4/) | **Agent Quality & Security** | ⏳ Chưa bắt đầu |
 | **Day 5** | [day5/](./day5/) | **Prototype to Production** | ⏳ Chưa bắt đầu |
@@ -39,6 +39,7 @@ Repo lưu trữ bài tập, ghi chú và các dự án thực hành trong khóa 
 - Cách trang bị và gọi công cụ (Tool Calling / Function Calling) cho Agent.
 - Tương tác với API bên ngoài, khả năng tương tác liên hệ thống (Interoperability).
 - **Bài tập 1:** Ứng dụng web Danh ngôn Bất hủ Song ngữ (Famous Quotes) xây dựng với **Antigravity CLI** (Flask + Vanilla JS, 100 câu danh ngôn, tìm kiếm, danh mục, lưu yêu thích, xuất CSV, Dark/Light mode, phát âm song ngữ, 12 tests passed).
+- **Bài tập 2:** Khám phá **Google Developer Knowledge MCP Server** trong Google Antigravity (cấu hình MCP, tạo Restricted API Key, bộ 3 công cụ `search_documents`, `answer_query`, `get_documents`, 3 câu lệnh kiểm thử, sinh mã `upload_to_drive.py`).
 
 ### 📁 [Day 3: Context Engineering: Sessions, Skills & Memory](./day3/README.md)
 - Kỹ thuật quản trị ngữ cảnh (Context Engineering).

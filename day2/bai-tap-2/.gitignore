@@ -1,0 +1,13 @@
+# Environment and API credentials
+.env*
+!.env.example
+credentials.json
+token.json
+client_secrets*.json
+*.key
+*.pem
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
